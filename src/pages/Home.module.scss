@@ -56,6 +56,19 @@
   .product {
     margin-bottom: 40px;
   }
+  .title {
+    text-align: left;
+    width: 100%;
+    margin-left: 32px;
+  }
+
+  .description {
+    text-align: left;
+    padding: 0 16px;
+  }
+  .info,.product{
+    width: 95%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -68,5 +81,16 @@
   }
   .img {
     justify-content: unset;
+  }
+
+  .title {
+    text-align: left;
+    width: 100%;
+    margin-left: 32px;
+  }
+
+  .description {
+    text-align: left;
+    padding: 0 16px;
   }
 }
